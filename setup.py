@@ -1,11 +1,11 @@
 from setuptools import setup
 
-setup(name='hessianfreernn',
+setup(name='saccademodel',
       version='0.1',
-      description='NN package using hessian free optimization',
+      description='NN package simulating delayed saccade task',
       long_description=readme(),
-      url='http://github.com/cjwawrzonek/hessianfreernn',
+      url='http://github.com/cjwawrzonek/saccademodel',
       license='MIT',
-      packages=['hessianfreernn'],
+      packages=['saccademodel'],
       include_package_data=True,
       zip_safe=False)
